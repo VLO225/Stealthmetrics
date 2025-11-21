@@ -3,23 +3,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StealthMetrics | Defense Analytics & Program Tracking</title>
+    <title>StealthMetrics | Defense Analytics</title>
 
-    <meta name="description" content="StealthMetrics provides high-quality defense visualizations, program timelines, cost analytics, and OSINT-driven aerospace insights.">
-    
-    <meta property="og:title" content="StealthMetrics | Defense Analytics">
-    <meta property="og:description" content="Defense Analytics • Program Tracking • OSINT. Visualizing the F-35 program, LCS deployments, and cost per flight hour data.">
-    <meta property="og:type" content="website">
+    <meta name="description" content="StealthMetrics: Defense visualizations, program timelines, and cost analytics.">
+    <meta property="og:title" content="StealthMetrics">
+    <meta property="og:description" content="Visualizing the F-35 program, LCS deployments, and cost per flight hour data.">
     <meta property="og:image" content="https://vlo225.github.io/VLO-Defense-archives/f35-timeline.png">
-
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="StealthMetrics">
-    <meta name="twitter:description" content="High-fidelity defense program tracking and cost analytics.">
-    <meta name="twitter:image" content="https://vlo225.github.io/VLO-Defense-archives/f35-timeline.png">
 
     <style>
         :root {
-            --bg-color: #f4f1ea;
+            --bg-color: #f4f1ea; /* Warm Paper */
             --card-bg: #ffffff;
             --text-primary: #2c2926;
             --text-secondary: #595550;
@@ -49,20 +43,22 @@
             margin-bottom: 50px;
         }
 
-        /* Logo Image Style */
+        /* --- LOGO UPDATE: Much Bigger --- */
         .logo img {
-            height: 80px; /* Adjusted height for the new image */
+            height: 250px; /* Increased from 80px to 250px */
             width: auto;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             display: block;
             margin-left: auto;
             margin-right: auto;
+            border-radius: 4px; /* Slight rounding looks nice on art */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Adds depth */
         }
 
         h1 {
             margin: 0;
-            font-size: 3rem;
-            letter-spacing: -1px;
+            font-size: 3.5rem; /* Made slightly larger */
+            letter-spacing: -1.5px;
             color: #1a1a1a;
             font-weight: 700;
         }
@@ -72,7 +68,7 @@
             color: var(--text-secondary);
             text-transform: uppercase;
             letter-spacing: 2px;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             margin-top: 10px;
             font-weight: 600;
         }
@@ -191,7 +187,7 @@
     <div class="container">
         <header>
             <div class="logo">
-                <img src="boevert-lhx-scat.jpg" alt="Boeing-Vertol LHX SCAT Stealth Helicopter">
+                <img src="boevert-lhx-scat.jpg" alt="Boeing-Vertol LHX SCAT">
             </div>
             <h1>StealthMetrics</h1>
             <div class="subtitle">Visual Intelligence for Aerospace & Defense</div>
