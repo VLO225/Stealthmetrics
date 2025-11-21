@@ -7,7 +7,7 @@
 
 ### 1. F-35 Program Timeline & Delivery Schedule
 *An overview of Software Capability (Block Cycle), Hardware Generations (TR-1/2/3), and Production Lots.*
-![F-35 Timeline](f35-timeline.jpg)
+![F-35 Timeline](f35-timeline.png)
 
 ---
 
@@ -19,4 +19,4 @@
 
 ### 3. U.S. Navy LCS Deployments (2022-2025)
 *Tracking sustained deployments of Independence and Freedom class variants.*
-![LCS Deployments](lcs-deployments.jpg)
+![LCS Deployments](lcs-deployments.jpeg)
