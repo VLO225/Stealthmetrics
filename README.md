@@ -49,8 +49,9 @@
             margin-bottom: 50px;
         }
 
-        .logo svg {
-            height: 60px;
+        /* Logo Image Style */
+        .logo img {
+            height: 80px; /* Adjusted height for the new image */
             width: auto;
             margin-bottom: 15px;
             display: block;
@@ -190,10 +191,7 @@
     <div class="container">
         <header>
             <div class="logo">
-                <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#2c2926" stroke-width="2">
-                    <path d="M10 30 L60 15 L120 15 L170 30 L120 45 L60 45 Z" />
-                    <path d="M60 15 L90 5 L120 15" />
-                </svg>
+                <img src="boevert-lhx-scat.jpg" alt="Boeing-Vertol LHX SCAT Stealth Helicopter">
             </div>
             <h1>StealthMetrics</h1>
             <div class="subtitle">Visual Intelligence for Aerospace & Defense</div>
